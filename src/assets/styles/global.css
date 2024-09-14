@@ -1,0 +1,117 @@
+.pq-service-box-2-list .item {
+	cursor: pointer;
+}
+
+.pq-service-box-border-top .pq-service-box-2-list .pq-service-box.pq-style-2 {
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pq-service-box.pq-style-2 {
+	display: flex;
+
+	display: grid;
+	padding: 60px 0;
+	grid-template-columns: 0.3fr 1.2fr 1.6fr 1.1fr 1fr;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1)
+}
+
+.pq-service-box.pq-style-2 .pq-service-img {
+	position: relative;
+}
+
+.pq-service-box.pq-style-2 .pq-service-img:before {
+	content: "";
+	position: absolute;
+	right: -64px;
+	bottom: -45px;
+	width: 170px;
+	height: 64px;
+	border-radius: 10px;
+	background: var(--primary-color);
+	transform: scale(0) rotate(-30deg);
+	transition: all 0.5s ease;
+	z-index: 1;
+}
+
+.pq-service-box.pq-style-2:hover .pq-service-img:before,
+.pq-service-box.pq-style-2.active .pq-service-img:before {
+	transform: scale(1) rotate(-30deg);
+}
+
+.pq-service-box.pq-style-2 .pq-service-img img {
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	border-radius: 10px;
+	max-width: 260px;
+	transform: translateY(10px);
+	transition: all 0.5s ease;
+	top: 0;
+
+	opacity: 0;
+}
+
+.pq-service-box-2-list .item:hover .pq-service-box.pq-style-2 .pq-service-img img,
+.pq-service-box-2-list .item .pq-service-box.pq-style-2.active .pq-service-img img {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.pq-service-box.pq-style-2 .pq-service-number {
+	font-size: 28px;
+	line-height: 36px;
+	color: var(--white-color);
+	font-weight: 600;
+}
+
+.pq-service-box.pq-style-2 .pq-service-title {
+	font-size: 28px;
+	line-height: 36px;
+	color: var(--white-color);
+}
+
+.pq-service-box.pq-style-2 .pq-service-description {
+	color: var(--white-color);
+
+}
+
+.pq-service-box.pq-style-2 .pq-service-list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-top: 15px;
+}
+
+.pq-service-box.pq-style-2 .pq-service-list li {
+	position: relative;
+	padding-left: 15px;
+	text-transform: capitalize;
+}
+
+.pq-service-box.pq-style-2 .pq-service-list li:before {
+	content: "";
+	position: absolute;
+	background: var(--primary-color);
+	width: 8px;
+	height: 8px;
+	border-radius: 100%;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.pq-service-box.pq-style-2 .pq-btn-container {
+	display: inline-flex;
+	align-items: center;
+	justify-content: end;
+}
+
+.pq-service-box.pq-style-2 .pq-btn-container .pq-button {
+	background: var(--white-color);
+}
+
+.pq-service-box.pq-style-2 .pq-btn-container .pq-button:hover {
+	background: var(--primary-color);
+	color: var(--dark-color);
+}
