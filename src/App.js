@@ -16,7 +16,7 @@ function App() {
   <ServicePage/>
   {/* <WhyPage/> */}
   {/* <WorkingProcess/> */}
-  {/* <ContactPage/> */}
+  <ContactPage/>
    </div>
   );
 }

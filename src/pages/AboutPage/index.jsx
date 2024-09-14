@@ -10,7 +10,7 @@ import { Col, Row } from "react-bootstrap";
 
 const AboutPage = () => {
   return (
-    <div className="about-us container">
+    <div className="about-us container my-5">
       <Row>
         <Col md={6}>
           <div className="about-image">

@@ -1,5 +1,9 @@
 import React from "react";
-import ServiceImg from "../../assets/images/service 1.jpg";
+import ServiceImg from "../../assets/images/Sprinkler-System_NTIPL_02.jpg";
+import Service2Img from "../../assets/images/pexels-edgar-toro-2464540-12222676.jpg";
+import Service3Img from "../../assets/images/pexels-pixabay-163100.jpg";
+import Service4Img from "../../assets/images/hvac.jpg";
+import Service5Img from "../../assets/images/arcs.jpg";
 
 const ServicePage = () => {
   return (
@@ -28,7 +32,7 @@ const ServicePage = () => {
                 </ul>
               </div>
               <div className="service-img">
-                <img src={ServiceImg} decoding="async" alt="service-image" />
+                <img src={Service2Img} decoding="async" alt="service-image" />
                 {/* <img decoding="async" src="images/service/list/1.jpg" alt="service-image"> */}
               </div>
               <div className="btn-container">
@@ -86,7 +90,7 @@ const ServicePage = () => {
                 </ul>
               </div>
               <div className="service-img">
-                <img src={ServiceImg} decoding="async" alt="service-image" />
+                <img src={Service3Img} decoding="async" alt="service-image" />
                 {/* <img decoding="async" src="images/service/list/1.jpg" alt="service-image"> */}
               </div>
               <div className="btn-container">
@@ -115,7 +119,7 @@ const ServicePage = () => {
                 </ul>
               </div>
               <div className="service-img">
-                <img src={ServiceImg} decoding="async" alt="service-image" />
+                <img src={Service4Img} decoding="async" alt="service-image" />
                 {/* <img decoding="async" src="images/service/list/1.jpg" alt="service-image"> */}
               </div>
               <div className="btn-container">
@@ -143,7 +147,7 @@ const ServicePage = () => {
                 </ul>
               </div>
               <div className="service-img">
-                <img src={ServiceImg} decoding="async" alt="service-image" />
+                <img src={Service5Img} decoding="async" alt="service-image" />
                 {/* <img decoding="async" src="images/service/list/1.jpg" alt="service-image"> */}
               </div>
               <div className="btn-container">
