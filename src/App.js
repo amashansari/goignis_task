@@ -14,8 +14,8 @@ function App() {
   {/* <HomePage/> */}
   {/* <AboutPage/> */}
   <ServicePage/>
-  {/* <WhyPage/> */}
-  {/* <WorkingProcess/> */}
+  <WhyPage/>
+  <WorkingProcess/>
   {/* <ContactPage/> */}
    </div>
   );
