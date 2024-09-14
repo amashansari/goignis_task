@@ -12,7 +12,7 @@ function App() {
   return (
  <div className='App'>
   {/* <HomePage/> */}
-  {/* <AboutPage/> */}
+  <AboutPage/>
   <ServicePage/>
   <WhyPage/>
   <WorkingProcess/>
