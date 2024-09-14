@@ -6,6 +6,7 @@ import ServicePage from './pages/ServicePage';
 import WhyPage from './pages/WhyPage';
 import WorkingProcess from './pages/WorkingProcess';
 import ContactPage from './pages/ContactPage';
+import "./assets/styles/global.css"
 
 function App() {
   return (
