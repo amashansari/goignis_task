@@ -13,9 +13,9 @@ function App() {
  <div className='App'>
   {/* <HomePage/> */}
   <AboutPage/>
+  <WhyPage/>
+  <WorkingProcess/>
   <ServicePage/>
-  {/* <WhyPage/> */}
-  {/* <WorkingProcess/> */}
   <ContactPage/>
    </div>
   );

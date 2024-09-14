@@ -12,7 +12,7 @@ const AboutPage = () => {
   return (
     <div className="about-us container my-5">
       <Row>
-        <Col md={6}>
+        <Col md={6} className="d-flex align-items-center justify-content-center">
           <div className="about-image">
             <img src={aboutImg} alt="" />
           </div>
