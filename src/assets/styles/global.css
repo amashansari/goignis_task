@@ -1,0 +1,629 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                                  About Page                                   */
+.about-us {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.about-image {
+  height: 700px;
+}
+
+.about-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about-title p {
+  background: #ff6f21;
+  display: inline-block;
+  padding: 5px 13px;
+  color: white;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-bottom: 0 !important;
+}
+
+.about-moto h1 {
+  font-size: 43px;
+}
+
+.about-description p {
+  color: #2f2f2f;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.about-service-type {
+  height: 75px;
+  width: 100px;
+  background: #6796a8cc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.about-service-type-head {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.about-service-type-body {
+  color: #909090;
+  font-size: 12px;
+  text-align: justify;
+}
+
+.about-service-type-image {
+  height: 50px;
+  width: 50px;
+}
+
+.about-service-type-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.about-contact {
+  display: flex;
+  justify-content: space-between;
+  color: #19627dc9;
+  font-weight: 500;
+}
+
+.about-number {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.about-email {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.about-number-image {
+  height: 50px;
+  width: 50px;
+}
+
+.about-number-image img {
+  height: 100%;
+  width: 100%;
+}
+
+.about-email-image {
+  height: 50px;
+  width: 50px;
+}
+
+.about-email-image img {
+  height: 100%;
+  width: 100%;
+}
