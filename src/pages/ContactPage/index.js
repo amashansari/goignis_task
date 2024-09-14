@@ -48,7 +48,7 @@ const ContactPage = () => {
                 </li>
               </ul>
             </Col>
-            <Col lg={6}>
+            <Col lg={6} className="d-flex align-items-center">
               <div className="contact-form-div">
                 <h3 className="contact-form-title">Send Us A Message</h3>
                 <p className="contact-form-description">
