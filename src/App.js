@@ -11,12 +11,12 @@ import "./assets/styles/global.css"
 function App() {
   return (
  <div className='App'>
-  <HomePage/>
-  <AboutPage/>
+  {/* <HomePage/> */}
+  {/* <AboutPage/> */}
   <ServicePage/>
-  <WhyPage/>
-  <WorkingProcess/>
-  <ContactPage/>
+  {/* <WhyPage/> */}
+  {/* <WorkingProcess/> */}
+  {/* <ContactPage/> */}
    </div>
   );
 }
