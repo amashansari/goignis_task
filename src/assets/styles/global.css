@@ -29,6 +29,10 @@ body {
   font-weight: bold;
 }
 
+.custom-nav-list-item {
+  cursor: pointer;
+}
+
 .custom-nav-logo {
   width: 130px;
 }
