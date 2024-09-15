@@ -17,6 +17,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 0px 50px;
+  height: 80px;
 }
 
 .custom-nav-list {
@@ -404,12 +405,13 @@ body {
 .about-us {
   height: 100vh;
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   gap: 10px;
 }
 
 .about-image {
-  height: 500px;
+  height: 100%;
 }
 
 .about-image img {

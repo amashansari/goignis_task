@@ -11,7 +11,7 @@ import { Col, Row } from "react-bootstrap";
 const AboutPage = () => {
   return (
     <div className="about-us container my-5">
-      <Row>
+      <Row >
         <Col md={6} className="d-flex align-items-center justify-content-center">
           <div className="about-image">
             <img src={aboutImg} alt="" />
@@ -108,7 +108,7 @@ const AboutPage = () => {
                 </Col>
               </Row>
             </div>
-            <hr className="my-1" />
+            {/* <hr className="my-1" />
             <div className="about-contact">
               <div className="about-number">
                 <div className="about-number-image">
@@ -122,7 +122,7 @@ const AboutPage = () => {
                 </div>
                 <div className="about-contact-email">info@goignis.com</div>
               </div>
-            </div>
+            </div> */}
           </div>
         </Col>
       </Row>
